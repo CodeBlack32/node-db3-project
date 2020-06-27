@@ -26,5 +26,6 @@ where od.OrderId = '10251'
 
 select od.OrderID, c.CompanyName, e.LastName, o.EmployeeId
 from OrderDetail as od
-    join Customer as c   , Employee as e, [Order] as o
+    join Customer as c    , Employee as e, [Order] as o
 on o.EmployeeId = e.Id
+??
